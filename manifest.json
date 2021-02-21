@@ -1,0 +1,35 @@
+{
+    "manifest_version": 2,
+    "name": "PnWUI-Reworked",
+    "description": "A reworked user interface for Politics & War in the form of an extension",
+    "version": "0.0.1",
+    "author": "ApocalypseCalculator",
+    "permissions": [
+        "https://*.politicsandwar.com/"
+    ],
+    "content_scripts": [
+        {
+            "css": [
+                "style.css"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "matches": [
+                "https://*.politicsandwar.com/*"
+            ]
+        }
+    ],
+    "browser_action": {
+        "default_icon": {
+            "32": "icon.png"
+        },
+        "default_title": "PnW Reworked UI"
+    },
+    "icons": {
+        "16": "icon.png",
+        "32": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    }
+}
