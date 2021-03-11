@@ -26,12 +26,13 @@ table tr:nth-child(odd) td{
     border-color: rgb(54, 55, 78) !important;
 }
 
-a:link{
-    color: rgb(143, 182, 93);
+a:link, li, a{
+    color: rgb(143, 182, 93) !important;
 }
 
 .btn-default:hover{
-    background-color: rgb(217, 247, 179);
+    background-color: rgb(217, 247, 179) !important;
+    color: rgb(66, 83, 43) !important;
 }
 
 th{
@@ -41,6 +42,7 @@ th{
 .btn-default {
     background-color: rgb(54, 45, 68) !important;
     border-color:rgb(54, 45, 68) !important;
+    color: rgb(143, 182, 93) !important;
 }
 
 select {
@@ -48,3 +50,26 @@ select {
     background-color: rgb(106, 153, 127) !important;
     color: antiquewhite !important;
 }
+
+.alert {
+    background-color: rgb(41, 95, 97) !important;
+}
+
+.scrollable-element{
+    scrollbar-color: grey !important;
+    scrollbar-arrow-color: rgb(5, 133, 133) !important;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: orange;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: blue;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid orange;  /* creates padding around scroll thumb */
+  }
