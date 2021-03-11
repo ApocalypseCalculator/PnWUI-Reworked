@@ -16,15 +16,28 @@ p {
     background-color: rgb(0, 68, 68) !important;
 }
 
-span {
+span, g {
     color: whitesmoke !important;
     border-color: rgb(54, 55, 78) !important;
 }
 
+.red-msg {
+    background: #745c58 !important;
+}
+
+.blue-msg {
+    background: #5f6f7c !important;
+}
+
+/*.main-svg {
+    background: #5f6f7c !important;
+}*/
+
 body {
     background-color: rgb(88, 78, 78) !important;
     border-color: black !important;
-    margin: 0% !important;
+    margin: 0 !important;
+    background: linear-gradient(to bottom, rgb(85, 72, 95) 0, rgb(71, 87, 65) 100%) !important;
 }
 
 input[type="password"], input[type="email"], input[type="number"], input[type="text"] {
@@ -39,8 +52,17 @@ table tr:nth-child(odd) td {
     border-color: rgb(54, 55, 78) !important;
 }
 
+.btn-warning {
+    background-color: #70470e !important;
+}
+
 a:link, li, a {
     color: rgb(143, 182, 93) !important;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+    background-color: #6d4e6e !important;
+    border: 1px solid rgb(118, 176, 209) !important;
 }
 
 ::placeholder {
@@ -49,7 +71,7 @@ a:link, li, a {
 
 .btn-default:hover, a:hover {
     background-color: rgb(217, 247, 179) !important;
-    color: rgb(66, 83, 43) !important;
+    color: rgb(183, 230, 119) !important;
 }
 
 th {
@@ -94,4 +116,9 @@ body::-webkit-scrollbar-thumb {
     /* roundness of the scroll thumb */
     border: 3px solid rgb(70, 70, 70);
     /* creates padding around scroll thumb */
+}
+
+.progress, .box-shadow {
+    color: rgb(95, 95, 95) !important;
+    background-color: #586c7c !important;
 }
