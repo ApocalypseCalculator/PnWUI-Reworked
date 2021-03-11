@@ -2,7 +2,7 @@
     color: aliceblue !important;
 }
 
-.row, .bg, p, span, .sidebar, .container, .col-xs-4 {
+.row, .bg, p, span, .sidebar, .container, .col-xs-4,table tr:nth-child(even) td {
     background-color: rgb(51, 48, 48) !important;
     color: whitesmoke;
     border-color: rgb(54, 55, 78) !important;
@@ -10,6 +10,41 @@
 
 body {
     background-color: rgb(88, 78, 78) !important;
-    border-color: black;
+    border-color: black !important;
     margin: 0% !important;
+}
+
+input[type="password"], input[type="email"], input[type="number"], input[type="text"] {
+    background-color: rgb(153, 130, 130) !important;
+    border-color: blue !important;
+    color: whitesmoke !important;
+}
+
+table tr:nth-child(odd) td{
+    background-color: rgb(77, 83, 78) !important;
+    color:antiquewhite !important;
+    border-color: rgb(54, 55, 78) !important;
+}
+
+a:link{
+    color: rgb(143, 182, 93);
+}
+
+.btn-default:hover{
+    background-color: rgb(217, 247, 179);
+}
+
+th{
+    border-color: black !important;
+}
+
+.btn-default {
+    background-color: rgb(54, 45, 68) !important;
+    border-color:rgb(54, 45, 68) !important;
+}
+
+select {
+    border-color: gray !important;
+    background-color: rgb(106, 153, 127) !important;
+    color: antiquewhite !important;
 }
