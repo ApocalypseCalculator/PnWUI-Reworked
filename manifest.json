@@ -7,13 +7,13 @@
     "permissions": [
         "https://*.politicsandwar.com/"
     ],
+    "background": {
+        "scripts": ["content.js"]
+    },
     "content_scripts": [
         {
             "css": [
-                "style.css"
-            ],
-            "js": [
-                "content.js"
+                "./css/style.css"
             ],
             "matches": [
                 "https://*.politicsandwar.com/*"
