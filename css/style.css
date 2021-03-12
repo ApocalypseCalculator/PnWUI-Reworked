@@ -70,7 +70,7 @@ a:link, li, a {
 
 .btn-default:hover, a:hover {
     background-color: rgb(217, 247, 179) !important;
-    color: rgb(183, 230, 119) !important;
+    color: rgb(91, 116, 58) !important;
 }
 
 th {
@@ -98,26 +98,47 @@ select {
     scrollbar-arrow-color: rgb(5, 133, 133) !important;
 }
 
-body::-webkit-scrollbar {
-    width: 12px;
+*::-webkit-scrollbar {
+    width: 20px !important;
     /* width of the entire scrollbar */
 }
 
-body::-webkit-scrollbar-track {
-    background: rgb(75, 75, 75);
+*::-webkit-scrollbar-track {
+    background: rgb(75, 75, 75) !important;
     /* color of the tracking area */
 }
 
-body::-webkit-scrollbar-thumb {
-    background-color: rgb(110, 110, 175);
+*::-webkit-scrollbar-thumb {
+    background-color: rgb(110, 110, 175) !important;
     /* color of the scroll thumb */
-    border-radius: 20px;
+    border-radius: 30px !important;
     /* roundness of the scroll thumb */
-    border: 3px solid rgb(70, 70, 70);
+    border: 6px solid rgb(70, 70, 70) !important;
     /* creates padding around scroll thumb */
 }
 
 .progress, .box-shadow {
     color: rgb(95, 95, 95) !important;
     background-color: #586c7c !important;
+}
+
+table.nationtable th {
+    color: aliceblue !important;
+    background-color: rgb(31, 99, 99) !important;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #a59ddf !important;
+}
+
+.btn-danger {
+    background-color: #742e2b !important;
+}
+
+.btn-success {
+    background-color: #366936 !important;
+}
+
+.btn-primary {
+    background-color: #214d74 !important;
 }
