@@ -2,7 +2,7 @@
     color: aliceblue !important;
 }
 
-.row, .bg, .sidebar, .container, .col-xs-4, table tr:nth-child(even) td, .ck, textarea, .card {
+.row, .bg, .sidebar, .container, .col-xs-4, table tr:nth-child(even) td, .ck, textarea, .card, .modal-content {
     background-color: rgb(51, 48, 48) !important;
     color: whitesmoke !important;
     border-color: rgb(54, 55, 78) !important;
@@ -28,10 +28,6 @@ span, g {
 .blue-msg {
     background: #5f6f7c !important;
 }
-
-/*.main-svg {
-    background: #5f6f7c !important;
-}*/
 
 body {
     background-color: rgb(88, 78, 78) !important;
@@ -122,7 +118,7 @@ select {
     background-color: #586c7c !important;
 }
 
-table.nationtable th {
+table.nationtable th, .columnheader {
     color: aliceblue !important;
     background-color: rgb(31, 99, 99) !important;
 }
@@ -141,4 +137,8 @@ h1, h2, h3, h4, h5 {
 
 .btn-primary {
     background-color: #214d74 !important;
+}
+
+.vis-network, .nvd3-svg {
+    background-color: rgb(151, 151, 133) !important;
 }
