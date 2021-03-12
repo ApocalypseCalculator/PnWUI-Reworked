@@ -17,6 +17,9 @@
             "css": [
                 "css/style.css"
             ],
+            "js": [
+                "content.js"
+            ],
             "matches": [
                 "https://politicsandwar.com/*"
             ]

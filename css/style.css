@@ -37,7 +37,6 @@ body {
     background-color: rgb(88, 78, 78) !important;
     border-color: black !important;
     margin: 0 !important;
-    background: linear-gradient(to bottom, rgb(85, 72, 95) 0, rgb(71, 87, 65) 100%) !important;
 }
 
 input[type="password"], input[type="email"], input[type="number"], input[type="text"] {
