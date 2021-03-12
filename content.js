@@ -6,9 +6,13 @@ var lightstyle = "rgb(151, 151, 133);";
 window.addEventListener("load", function () {
     setTimeout(function () {
         var svgs = document.getElementsByClassName("main-svg");
-        if (window.location.pathname.startsWith("/nation") || window.location.pathname.startsWith("/alliance/id=")) {
-            svgs.item(3).style = `background: ${lightstyle}`;
-            svgs.item(0).style = `background: ${lightstyle}`;
+        if (/^\/nation\/id=[0-9]{1,7}$/.test(window.location.pathname) || /^\/alliance\/id=[0-9]{1,5}$/.test(window.location.pathname)) {
+            if (svgs.item(3)) {
+                svgs.item(3).style = `background: ${lightstyle}`;
+            }
+            if (svgs.item(0)) {
+                svgs.item(0).style = `background: ${lightstyle}`;
+            }
         }
         else if (window.location.pathname.includes("world-graphs")) {
             svgs.item(0).style = `background: ${lightstyle}`;
