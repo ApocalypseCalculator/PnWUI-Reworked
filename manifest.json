@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "PnWUI-Reworked",
     "description": "A reworked user interface for Politics & War in the form of an extension",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "author": "ApocalypseCalculator",
     "permissions": [
         "https://politicsandwar.com/"
