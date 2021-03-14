@@ -142,3 +142,7 @@ h1, h2, h3, h4, h5 {
 .vis-network, .nvd3-svg {
     background-color: rgb(151, 151, 133) !important;
 }
+
+.breadcrumb {
+    background-color: #214d74 !important;
+}
