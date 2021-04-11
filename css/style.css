@@ -8,6 +8,10 @@
     border-color: rgb(54, 55, 78) !important;
 }
 
+pre {
+    color: whitesmoke;
+}
+
 p, .alert {
     color: whitesmoke !important;
 }
@@ -30,7 +34,7 @@ span, g {
 }
 
 body {
-    background-color: rgb(88, 78, 78) !important;
+    background-color: rgb(37, 34, 41) !important;
     border-color: black !important;
     margin: 0 !important;
 }
