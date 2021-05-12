@@ -3,8 +3,12 @@ if (window.getComputedStyle(document.body, null).backgroundImage.includes("linea
 }
 var lightstyle = "rgb(151, 151, 133);";
 
+//REMOVE AD ELEMENT
+document.getElementsByClassName("alert-info").item(0).remove()
+
 window.addEventListener("load", function () {
     setTimeout(function () {
+        //SET GRAPH BACKGROUNDS
         var svgs = document.getElementsByClassName("main-svg");
         if (/^\/nation\/id=[0-9]{1,7}$/.test(window.location.pathname) || /^\/alliance\/id=[0-9]{1,5}$/.test(window.location.pathname)) {
             if (svgs.item(6)) {
@@ -24,5 +28,5 @@ window.addEventListener("load", function () {
         for (let i = 0; i < bgs.length; i++) {
             bgs.item(i).style = `fill: ${lightstyle}`;
         }
-    }, 500);
+    }, 200);
 })
