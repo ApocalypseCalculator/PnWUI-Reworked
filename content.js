@@ -7,6 +7,9 @@ window.addEventListener("load", function () {
     setTimeout(function () {
         var svgs = document.getElementsByClassName("main-svg");
         if (/^\/nation\/id=[0-9]{1,7}$/.test(window.location.pathname) || /^\/alliance\/id=[0-9]{1,5}$/.test(window.location.pathname)) {
+            if (svgs.item(6)) {
+                svgs.item(6).style = `background: ${lightstyle}`;
+            }
             if (svgs.item(3)) {
                 svgs.item(3).style = `background: ${lightstyle}`;
             }
